@@ -1,0 +1,18 @@
+uuid: 30bb27cb-1b5b-4aaa-963a-c6b474a2adca
+langcode: en
+status: true
+dependencies: {  }
+countryCode: KY
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%administrativeArea %postalCode"
+requiredFields:
+  - recipient
+  - addressLine1
+  - administrativeArea
+uppercaseFields:
+  - locality
+administrativeAreaType: island
+localityType: null
+dependentLocalityType: null
+postalCodeType: postal
+postalCodePattern: 'KY\d-\d{4}'
+postalCodePrefix: null

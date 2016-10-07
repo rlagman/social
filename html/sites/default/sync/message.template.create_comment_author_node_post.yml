@@ -1,0 +1,33 @@
+uuid: ad48afc4-068d-4c48-a72b-2afab01db1d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      comment-comment: comment-comment
+      comment-post_comment: comment-post_comment
+    activity_action: create_entitiy_action
+    activity_context: owner_activity_context
+    activity_destinations:
+      email: email
+    activity_create_direct: 1
+    activity_aggregate: 0
+    activity_entity_condition: comment_not_reply
+_core:
+  default_config_hash: bzPtvsDmCJ6199sKrl58X65wYZv3aqz6WDsT6Hg819Q
+template: create_comment_author_node_post
+label: 'Create comment on authors node or post'
+description: 'A person commented on a post, topic or event created or organised by me'
+text:
+  - '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> commented on your <a href="[message:field_message_related_object:entity:url:absolute]">content</a></p>'
+  - '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> commented on your <a href="[message:field_message_related_object:entity:url:absolute]">content</a></p>'
+  - '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> commented on your <a href="[message:field_message_related_object:entity:url:absolute]">content</a></p>'
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

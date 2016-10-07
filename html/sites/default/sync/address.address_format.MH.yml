@@ -1,0 +1,25 @@
+uuid: d3cc6904-a452-4214-b7df-0d346f76c29c
+langcode: en
+status: true
+dependencies: {  }
+countryCode: MH
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%locality %administrativeArea %postalCode"
+requiredFields:
+  - recipient
+  - addressLine1
+  - locality
+  - administrativeArea
+  - postalCode
+uppercaseFields:
+  - addressLine1
+  - addressLine2
+  - locality
+  - recipient
+  - organization
+  - administrativeArea
+administrativeAreaType: state
+localityType: city
+dependentLocalityType: null
+postalCodeType: zip
+postalCodePattern: '(969[67]\d)(?:[ \-](\d{4}))?'
+postalCodePrefix: null

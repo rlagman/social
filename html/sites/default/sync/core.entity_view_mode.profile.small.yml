@@ -1,0 +1,12 @@
+uuid: e239a787-bc87-4085-b1c7-fe580622b1ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: 2AiTXTFvVgjRdjEQpnCXw6-wkXUmZcj-RN5qvFQhxf8
+id: profile.small
+label: Small
+targetEntityType: profile
+cache: true

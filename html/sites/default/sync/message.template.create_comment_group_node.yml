@@ -1,0 +1,36 @@
+uuid: e7c3295b-7a94-46b2-b268-8b7e66f78d90
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      comment-comment: comment-comment
+    activity_action: create_entitiy_action
+    activity_context: group_activity_context
+    activity_destinations:
+      stream_group: stream_group
+      stream_home: stream_home
+      stream_profile: stream_profile
+    activity_create_direct: 1
+    activity_aggregate: 1
+    activity_entity_condition: comment_not_reply
+_core:
+  default_config_hash: bhrwQnwPtqoZW25vB-MK0AFGdM0UrPcgOfCYmxF0z0o
+template: create_comment_group_node
+label: 'Create comment on node in the group'
+description: 'A user add a comment to content in the group'
+text:
+  - '<p><a href="[message:author:url:relative]">[message:author:display-name]</a> commented on content in the group <a href="[message:gurl]">[message:gtitle]</a></p>'
+  - '<p><a href="[message:author:url:relative]">[message:author:display-name]</a> and @count others commented on content in the group <a href="[message:gurl]">[message:gtitle]</a></p>'
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge:
+    override: false
+    enabled: false
+    quota: null
+    days: null

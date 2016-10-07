@@ -1,0 +1,19 @@
+uuid: 6b453634-52ce-4dab-8264-db3b92ac3ba2
+langcode: en
+status: true
+dependencies: {  }
+countryCode: ZA
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%dependentLocality\n%locality\n%postalCode"
+requiredFields:
+  - recipient
+  - addressLine1
+  - locality
+  - postalCode
+uppercaseFields:
+  - locality
+administrativeAreaType: null
+localityType: city
+dependentLocalityType: suburb
+postalCodeType: postal
+postalCodePattern: '\d{4}'
+postalCodePrefix: null

@@ -1,0 +1,18 @@
+uuid: 1e4eddac-5857-44ad-9c06-e2b0913784d3
+langcode: en
+status: true
+dependencies: {  }
+countryCode: AC
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%locality\n%postalCode"
+requiredFields:
+  - recipient
+  - addressLine1
+  - locality
+uppercaseFields:
+  - locality
+administrativeAreaType: null
+localityType: city
+dependentLocalityType: null
+postalCodeType: postal
+postalCodePattern: 'ASCN 1ZZ'
+postalCodePrefix: null

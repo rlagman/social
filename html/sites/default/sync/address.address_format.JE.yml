@@ -1,0 +1,20 @@
+uuid: 1bf23daa-cf9e-4579-825a-95a99062c46a
+langcode: en
+status: true
+dependencies: {  }
+countryCode: JE
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%locality\nJERSEY\n%postalCode"
+requiredFields:
+  - recipient
+  - addressLine1
+  - locality
+  - postalCode
+uppercaseFields:
+  - locality
+  - postalCode
+administrativeAreaType: null
+localityType: city
+dependentLocalityType: null
+postalCodeType: postal
+postalCodePattern: 'JE\d[\dA-Z]? ?\d[ABD-HJLN-UW-Z]{2}'
+postalCodePrefix: null

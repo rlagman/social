@@ -1,0 +1,34 @@
+uuid: eb307ebb-192d-440c-8d47-a942a7a100f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group.open_group.field_group_address
+    - field.field.group.open_group.field_group_description
+    - field.field.group.open_group.field_group_geolocation
+    - field.field.group.open_group.field_group_image
+    - field.field.group.open_group.field_group_location
+    - group.type.open_group
+_core:
+  default_config_hash: eiOgMRobu4qCNzosS_AbxaDd2HRj_YLcuB_JEmwC5_g
+id: group.open_group.default
+targetEntityType: group
+bundle: open_group
+mode: default
+content:
+  label:
+    label: hidden
+    type: string
+    weight: 0
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  field_group_address: true
+  field_group_description: true
+  field_group_geolocation: true
+  field_group_image: true
+  field_group_location: true
+  uid: true

@@ -1,0 +1,20 @@
+uuid: 6e272406-466f-4206-b545-c589d57d4156
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+  module:
+    - user
+_core:
+  default_config_hash: ZtHvErD3Ms8F0iLJYj3lKcC4xb1iGYruNZsp4NxTqFA
+id: open_group-group_membership
+label: 'Open group: Group membership'
+description: 'Adds users to groups as members.'
+group_type: open_group
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  info_text:
+    value: '<p>By submitting this form you will become a member of the group.<br />Please fill out any available fields to complete your membership information.</p>'

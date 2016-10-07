@@ -1,0 +1,28 @@
+uuid: a14c15ff-2f71-4da8-b8cf-1b1c892cc166
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_search
+    - system
+  theme:
+    - socialbase
+_core:
+  default_config_hash: PreeMga4EUFuZTo1C70U1qN0ZWOb_sNyum2ZX7EEQEg
+id: search_users_block_title
+theme: socialbase
+region: hero
+weight: 2
+provider: null
+plugin: search_users_block
+settings:
+  id: search_users_block
+  label: Search
+  provider: social_search
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/search/users\r\n/search/users/*"
+    negate: false
+    context_mapping: {  }

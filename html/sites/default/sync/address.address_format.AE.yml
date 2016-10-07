@@ -1,0 +1,18 @@
+uuid: 5db18e67-7eeb-4323-8e86-d3e5c306d954
+langcode: en
+status: true
+dependencies: {  }
+countryCode: AE
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%administrativeArea"
+requiredFields:
+  - recipient
+  - addressLine1
+  - administrativeArea
+uppercaseFields:
+  - locality
+administrativeAreaType: emirate
+localityType: null
+dependentLocalityType: null
+postalCodeType: null
+postalCodePattern: null
+postalCodePrefix: null

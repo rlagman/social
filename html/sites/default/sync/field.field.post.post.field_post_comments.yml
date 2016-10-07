@@ -1,0 +1,35 @@
+uuid: f9a5ed1b-428d-45c6-82c5-5b8636363995
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.post.field_post_comments
+  module:
+    - comment
+    - social_post
+_core:
+  default_config_hash: VxsbTIFYIflteYCIvR_u6Nt7XMiqMLrdRZ6-sFcqSbk
+id: post.post.field_post_comments
+field_name: field_post_comments
+entity_type: post
+bundle: post
+label: 'Post comments'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 0
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 0
+field_type: comment

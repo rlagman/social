@@ -1,0 +1,9 @@
+uuid: cc7cdc00-92f7-4d4c-a03b-7aafe77e7355
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gPld2blM3XBD-6HfPOEEzchyjIAmAmK-v6whehMZIrI
+id: open_group
+label: 'Open group'
+description: 'This is a open group. Users may join without approval and all content added in this group will be visible for non members as well.'

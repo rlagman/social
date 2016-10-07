@@ -1,0 +1,14 @@
+uuid: c18269a7-372d-4b2f-9d35-898738d65ad1
+name: Social
+mail: raphael@appnovation.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /stream
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

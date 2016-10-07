@@ -1,0 +1,11 @@
+uuid: 904b2e81-b05e-4c9d-93f1-0f28a6b59605
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZwJIm70Fl0bN1aljKUKAP1HG3jCHJgSjvRA5oG_y6Hw
+name: 'Topic types'
+vid: topic_types
+description: 'Topic types'
+hierarchy: 0
+weight: 0

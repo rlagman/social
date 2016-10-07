@@ -1,0 +1,21 @@
+uuid: b38fc789-c83a-48dd-ab52-f67a01f51a04
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+  enforced:
+    module:
+      - grolesync
+    config:
+      - user.role.administrator
+_core:
+  default_config_hash: w0EshTzxRHqPyIGdp7m_JW5sAviw2HmBkZHrgiD3sCY
+id: open_group-a416e6833
+label: Administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: open_group
+permissions_ui: false
+permissions: {  }

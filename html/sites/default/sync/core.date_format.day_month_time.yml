@@ -1,0 +1,10 @@
+uuid: bcb8ab7d-b95a-4bd6-8030-385b368cd74e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dl-Ya4SNTwMX8SiI0S2LSGnCFr4Avni9NnjxaFwy0bo
+id: day_month_time
+label: 'Day Month Time'
+locked: false
+pattern: 'j M - H:i'
