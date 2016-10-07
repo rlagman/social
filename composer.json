@@ -47,11 +47,6 @@
                 "type:drupal-drush"
             ]
         },
-        "enable-patching": true,
-        "patches": {
-            "drupal/core": {
-                "Patch .htaccess"
-            }
-        }
+        "enable-patching": true
     }
 }
