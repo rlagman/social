@@ -725,4 +725,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'social';
-$config_directories['sync'] = 'sites/default/files/config_lfC6Ju5Pzqsyn1Lrqrt9deuKicHZwKpG35-kjXHdbTNUAyU4xwXXx93NOary_aW3zWmHf8msyA/sync';
+$config_directories['sync'] = 'sites/default/sync';
